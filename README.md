@@ -6,26 +6,31 @@ Resources for **Power Query Demo Day**, a free live demo of *First Steps for Pow
 
 | File | What it is |
 |------|------------|
-| `power-query-demo-day.pptx` | The slide deck (16 slides) with speaker notes. CTAs link to the book and the membership. |
+| `power-query-demo-day.pptx` | The slide deck (15 slides) with speaker notes. Demo references point to worksheets in the supplied workbook; no membership access is required. |
 | `power-query-demo-day-notes.docx` | Step-by-step demo and speaker notes to replay every demo. |
-| `power-query-demo-day-cheatsheet.pdf` | One-page Power Query quick-reference handout (the lagniappe). |
+| `power-query-demo-day-data.xlsx` | All practice datasets in one workbook. |
 
 ## Practice datasets
 
-| File | Used in |
+Open **`power-query-demo-day-data.xlsx`** and select the worksheet for the demo. Keep the workbook open and switch worksheets between demos. On each data sheet, click inside the data and choose **Data > From Table/Range**. Keep query results on new worksheets so the source data remains available for refresh.
+
+| Worksheet | Used in |
 |------|---------|
-| `penguins.xlsx` | Demo: **Profiling data** (load, data types, View-tab profiling). |
-| `office-rsvps.xlsx` | Demo: **Manipulating rows** (filter nulls, sort, dedupe, refresh). |
-| `office-rsvps-solution.xlsx` | Cleaned solution for the rows demo. |
-| `wholesale-customers.xlsx` | Warm-up plus the grand-finale **Unpivot** (make data PivotTable-ready). |
+| `penguins` | Demo: **Profiling data** (load, data types, View-tab profiling). |
+| `signups` | Demo: **Manipulating rows** (filter nulls, sort, dedupe, refresh). |
+| `roster` | Additional department/sign-up practice data. |
+| `wholesale-customers` | Warm-up plus the grand-finale **Unpivot** (make data PivotTable-ready). |
+| `readme` | Original wholesale dataset source link. |
+
+All original data, including the blanks, duplicates, and intentional misspelling used in the cleanup demo, is retained. The original separate workbooks remain in this folder for reference; participants only need the combined workbook.
 
 ## How the session works
 
-It is a free live demo: attendees watch the workflows together during the session. The download files, replay, and practice materials come with the membership.
+It is a free live demo. Attendees receive the files directly and can follow along with the combined workbook or revisit the examples afterward. No membership page or sign-up is required to access the supplied files.
 
 ## Calls to action
 
-- **Get the recording and all downloads:** join the membership at https://stringfestdata.gumroad.com/l/mxlais?layout=profile
+- **Practice:** use the supplied workbook and demo notes.
 - **Go deeper:** *Modern Data Analytics in Excel* (O'Reilly) at https://stringfestanalytics.com/maxl/
 
 ## Build scripts
